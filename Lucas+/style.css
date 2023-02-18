@@ -1,0 +1,98 @@
+:root{
+    --branco-de-texto: #ffff;
+    --cinza-calro: #c0bdbd;
+    --cinza-escuro:#393E46;
+    --azual:#00ADB5;
+    --preto:#222831;
+    --fonte-principal:'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--preto);
+    color: var(--branco-de-texto);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+.apresentacao{
+    background-image: url(/img/the-lest-of-us.jpg);
+    align-items: center;
+    text-align: center;
+
+}
+.conteudo__apresentacao{
+    margin: 0 5em;
+}
+.conteudo{ 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-repeat:no-repeat ;
+    background-size: contain;
+    background-position: right top;
+    background-size: 70%;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.apresentacao__titulo{
+    font-size: 35px;
+    width: 700;
+}
+.apresentacao__stimes{
+    width: 60%;
+    margin: 1em 0 2em 0;
+    border: solid 2px var(--branco-de-texto);
+    border-radius: 6px;
+    
+}
+.apresentacao__botao{
+    background-color: var(--azual);
+    padding: 2ch;
+    display: block;
+    border-radius: 9px;
+    color: var(--branco-de-texto);
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.apresentacao__botao__segundario{
+    background-color: transparent;
+    border: solid 2px var(--branco-de-texto);
+}
+.apresentacao__aviso{
+    font-size: 12px;
+    color: var(--cinza-calro);
+}
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+.secundario__imagem{
+    width: 70%;
+}
+.comteudo__titulo{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0.2em;
+    
+}
+.comteudo__texto{
+    color: var(--cinza-calro);
+}
+.botao__tela{
+    display: inline-block;
+    margin-top: 2em;
+}
+.dispositivos{
+    text-align: center;
+}
+.dispositivos__titulo{
+    font-size: 40px;
+}
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    margin: 5em 0;
+    
+}
+.dispositivos__lista__descricao{
+    font-size: 25px;
+}
